@@ -82,3 +82,10 @@
 
     text-decoration: none;
 }
+
+.descricao__titulo-autora {
+  color: var(--laranja);
+  font-weight: 700;
+
+  padding: 1em 0;
+}
