@@ -72,6 +72,9 @@
 .opcoes {
   display: none;
 }
+.container__texto {
+  display: none;
+}
 
 
 /* Response Tablet 1024 */
@@ -121,3 +124,27 @@
     display: none;
   }
 } 
+
+
+/* Response Desktop 1728 */
+@media screen and (min-width: 1728px) {
+  .cabecalho {
+    padding: 0 2em;
+  }
+  
+  .container__link {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: var(--preto);
+  }
+
+  .container__texto {
+    display: block;
+  }
+
+  .opcoes {
+    margin-right : auto;
+  }
+}
