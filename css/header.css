@@ -28,11 +28,6 @@
   padding: 1em;
 }
 
-/* Escondendo o Check do botão. */
-.container__botao {
-    display: none;
-}
-
 .lista-menu {
   display: none;
   position: absolute;
@@ -65,14 +60,10 @@
   background-color: var(--branco);
 }
 
-.container__titulo {
-  display: none;
-}
-
-.opcoes {
-  display: none;
-}
-.container__texto {
+.container__titulo,
+.opcoes,
+.container__texto,
+.container__botao {
   display: none;
 }
 
