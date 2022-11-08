@@ -122,6 +122,26 @@
   .opcoes__botao {
     display: none;
   }
+
+  .opcoes__item {
+    padding: 2em 1em;
+  }
+
+  .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+
+  .lista-menu__item:hover { 
+    background: var(--azul-degrade);
+  }
+
+  .lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--branco);
+    
+    text-decoration: none;
+  }
+
 }
 
 /* Response Desktop 1728 */
