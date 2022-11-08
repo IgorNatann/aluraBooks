@@ -19,6 +19,12 @@
     justify-content: center;
 }
 
+.topicos__link:hover {
+    background-color: var(--cinza-claro);
+
+    transition: .3s;
+}
+
 .topicos__item {
     padding: 2em .5em;
 }

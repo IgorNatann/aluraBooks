@@ -83,6 +83,12 @@
   text-decoration: none;
 }
 
+.botoes__ancora:hover {
+  background-color: var(--cinza-claro);
+
+  transition: 0.3s;
+}
+
 .descricao__titulo-autora {
   color: var(--laranja);
   font-weight: 700;
