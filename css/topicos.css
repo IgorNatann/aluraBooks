@@ -1,58 +1,58 @@
 .topicos {
-    background: var(--azul-degrade);
-    text-align: center;
+  background: var(--azul-degrade);
+  text-align: center;
 
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
-.topicos__titulo{
-    color: var(--branco);
-    font-weight: 300;
+.topicos__titulo {
+  color: var(--branco);
+  font-weight: 300;
 
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .topicos__lista {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 
-    justify-content: center;
+  justify-content: center;
 }
 
 .topicos__link:hover {
-    background-color: var(--cinza-claro);
+  background-color: var(--cinza-claro);
 
-    transition: .3s;
+  transition: 0.3s;
 }
 
 .topicos__item {
-    padding: 2em .5em;
+  padding: 2em 0.5em;
 }
 
 .topicos__link {
-    color: var(--branco);
-    font-size: 14px;
-    font-weight: 700;
+  color: var(--branco);
+  font-size: 14px;
+  font-weight: 700;
 
-    padding: 1em;
+  padding: 1em;
 
-    background-color: var(--laranja);
+  background-color: var(--laranja);
 
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1024px) {
-    .topicos__titulo {
-        font-size: 24px;
-    }
+  .topicos__titulo {
+    font-size: 24px;
+  }
 
-    .topicos__link {
-        font-size: 24px;
-    }
+  .topicos__link {
+    font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 1728px) {
-    .topicos {
-        padding: 3em 30vw;
-    }
+  .topicos {
+    padding: 3em 30vw;
+  }
 }
